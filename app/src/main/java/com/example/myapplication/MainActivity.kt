@@ -9,7 +9,7 @@ import android.view.View
 import android.widget.TextView
     import android.util.Log
     import android.widget.Toast
-
+// 수업 시간에 연습 중 헤헤
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,8 +24,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.d("Activity Lifecycle", "MainActivity Start")
+        Log.d("Activity Lifecycle", "Edited MainActivity Start")
     }
+    
 
     private var count = 0
     private var resumedAfterPause = false
